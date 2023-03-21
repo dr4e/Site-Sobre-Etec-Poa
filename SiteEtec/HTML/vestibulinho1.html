@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Etec-Inscrições 1/3</title>
+    <link rel="icon" href="../Conteudos/Imgs/LogoEtec.png" type="image/png"> 
+    <link rel="stylesheet" href="../CSS/menu.css" type="text/css"> 
+    <link rel="stylesheet" href="../CSS/vestibulinho1.css" type="text/css">  
+</head>
+<body>
+    <main>
+        <div class="conteudo">
+            <div class="caixa-passos">
+                <div class="passos" style="background-color: rgb(255, 64, 64);">
+                    <p >1</p>
+                </div>
+                <div class="passos">
+                    <p style="color: rgb(255, 64, 64);">2</p>
+                </div>
+                <div class="passos">
+                    <p style="color: rgb(255, 64, 64);">3</p>
+                </div>
+            </div>
+
+            <div class="title">
+                <p>Inscrição - Insira todos os dados corretamente.</p>
+            </div>
+            <div class="formulario">
+                <form name="pag1-inscricao" method="post" action="vestibulinho2.html">
+                    <div class="alinhar-1">
+                        <div class="nome">
+                            <label for="Nome">Nome Completo:</label> <br>
+                            <div class="inp">
+                                <input type="text" name="Nome" placeholder="Digite seu nome*" maxlength="45" required>
+                            </div>
+                        </div>
+                        <div class="nascimento">
+                            <label for="Nascimento">Data de Nascimento:</label> <br>
+                            <div class="inp">
+                                <input type="text" name="Nascimento" placeholder="dd/mm/aa*" maxlength="6" required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="alinhar-1">
+                        <div class="CPF">
+                            <label for="CPF">CPF:</label> <br>
+                            <div class="inp">
+                                <input type="text" name="CPF" placeholder="(xxx.xxx.xxx-xx)*" maxlength="11" required>
+                            </div>
+                        </div>
+                        <div class="email">
+                            <label for="Email">E-mail:</label> <br>
+                            <div class="inp">
+                                <input type="email" name="Email" placeholder="Digite seu e-mail*" maxlength="50" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="alinhar-1">
+                        <div class="pais">
+                            <label for="pais">País de Nascimento:</label> <br>
+                            <div class="inp">
+                                <input type="text" name="pais" placeholder="Digite o país*" maxlength="20" required>
+                            </div>
+                        </div>
+                        <div class="cidade">
+                            <label for="cidade">Cidade de Nascimento:</label> <br>
+                            <div class="inp">
+                                <input type="text" name="cidade" placeholder="Digite a cidade*" maxlength="50">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="alinhar-1" style="padding: 40px 160px;">
+                        <div class="escolha-civil">
+                            <p style="font-size: 18px;">Estado Civil:</p>  <br>
+                            <div class="civil">
+                                <input type="radio" name="civil" value="sol" id="solteiro">
+                                <label for="solteiro">Solteiro</label>
+                            </div>
+                            <div class="civil">
+                                <input type="radio" name="civil" value="cas" id="casado">
+                                <label for="casado">Casado</label>
+                            </div>
+                            <div class="civil">
+                                <input type="radio" name="civil" value="divo" id="divorciado">
+                                <label for="sexoo">Divorciado</label>
+                            </div>
+                            <div class="civil">
+                                <input type="radio" name="civil" value="viu" id="viuvo">
+                                <label for="sexop">Viúvo</label>
+                            </div>
+                            <div class="civil">
+                                <input type="radio" name="civil" value="pre" id="prefiro" checked>
+                                <label for="sexop">Prefiro Não Dizer</label>
+                            </div>
+                        </div>
+
+                        <div class="escolha-sexo"> 
+                            <p style="font-size: 18px;">Sexo:</p>  <br>
+                            <div class="sexo">
+                                <input type="radio" name="sexo" id="sexom">
+                                <label for="sexom">Masculino</label>
+                            </div>
+                            <div class="sexo">
+                                <input type="radio" name="sexo" id="sexof">
+                                <label for="sexof">Feminino</label>
+                            </div>
+                            <div class="sexo">
+                                <input type="radio" name="sexo" id="sexoo">
+                                <label for="sexoo">Outros</label>
+                            </div>
+                            <div class="sexo">
+                                <input type="radio" name="sexo" id="sexop" checked>
+                                <label for="sexop">Prefiro Não Dizer</label>
+                            </div>
+                        </div>     
+                    </div>
+
+                    <div class="Proximo">
+                        <input type="submit" value="Próximo">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>    
+</body>
+</html>

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{padding: 0; margin: 0; box-sizing: border-box; font-family: 'Secular One', sans-serif; font-size: 16px;};
+
+header{
+    height: 200px;
+    background-color: transparent; 
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    opacity: 1;
+}
+
+.logo{
+    height: 70px;
+    width: 105px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.navigation{
+    box-shadow: rgba(0, 0, 0, 0.562) 1px -1px 7px;
+    display: flex;
+}   
+
+.navigation ul{
+    display: flex;
+    list-style: none;
+    width: 95%;
+}
+
+.navigation ul li{  
+    margin-left: 50px;
+    padding-right: 10px;
+    padding-top: 26px;
+
+    height: 100%;
+    list-style: none;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: black;
+}
+
+.navigation ul a:hover{
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
+.vestibulinho:hover{
+    background-color: rgb(149, 255, 149);
+    transition: 0.4s;
+}
+
+.vestibulinho a:hover{
+    opacity: 1;
+    color: white;
+}
+
+.vestibulinho{
+    margin-top: -13px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 21px;
+
+    width: 140px;
+    
+    border-radius: 50px;
+
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(149, 255, 149);
+}
+
+.vestibulinho a{
+    font-family: 'Secular One', sans-serif;
+    font-size: 15px;
+    color: rgb(119, 255, 119);
+    
+    padding-left: 24px;
+    padding-right: 22px;
+    margin-left: -23px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 50px;
+}
+
+.navigation ul li:last-child:hover{
+    box-shadow: none;
+    opacity: 1;
+}
+
+.navigation ul li:last-child a:hover{
+    opacity: 1;
+}
+
+.alinhar{
+    display: flex;
+    justify-content: end;
+    
+    width: 750%;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+} 
+
+body::-webkit-scrollbar-thumb {   
+    background-color: darkgrey;
+    border-radius: 15px;   
+}
+
+body::-webkit-scrollbar-track{
+    background-color: rgb(233, 229, 229);
+}

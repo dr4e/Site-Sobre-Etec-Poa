@@ -1,0 +1,143 @@
+main{
+    padding: 50px 150px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.title{
+    border-bottom: 2px solid red;
+}
+
+.title h1{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto-curso{
+    padding: 30px 0px;
+    text-align: justify;
+}
+
+.texto-curso p{
+    font-size: 20px;
+}
+
+.info-curso{
+    border: 1px solid gray;
+    background-color: rgb(236, 236, 236);
+    
+    padding: 10px 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    justify-content: center;
+    
+    height: 250px;
+    width: 700px;
+}
+
+.caixa-info{
+    margin-top: 10px;
+    padding: 0px 87px;
+}
+
+.icon-info{
+    height: 50px;
+    width: 50px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-info{
+    text-align: center;
+}
+
+.texto-info{
+    text-align: center;
+}
+
+.trabalhar{
+    margin-top: 50px;
+
+    padding: 0px 200px;
+    border-bottom: 1px solid rgb(196, 194, 194);
+
+    display: flex;
+}
+
+.title-trabalhar{
+    text-align: center;
+    padding: 25px 25px;
+}
+
+.title-trabalhar h1{
+    color: rgb(4, 209, 209);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+
+.texto-trabalhar{
+    padding: 25px 25px;
+    
+    display: flex;
+    align-items: center;
+    
+    text-align: justify;
+}
+
+.texto-trabalhar p{
+    font-size: 18px;
+}
+
+.grade-aulas{
+    margin-top: 70px;
+}
+
+.title-grade-aulas{
+    padding-bottom: 50px;
+}
+
+.title-grade-aulas h1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.anos{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+
+.parceiro{
+    padding: 15px 0;
+    margin-top: 70px;
+    border-top: 1px solid gray;
+}
+
+.title-parceiro h1{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto-parceiro{
+    padding-top: 15px; 
+}
+
+.texto-parceiro p{
+    font-size: 20px;
+}
+
+.texto-parceiro a{
+    font-size: 20px;
+    color: rgb(0, 180, 252);
+}
+
+.texto-parceiro a:hover{
+    opacity: 0.7;
+}

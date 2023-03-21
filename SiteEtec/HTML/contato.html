@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../Conteudos/Imgs/LogoEtec.png" type="image/png">
+    <link rel="stylesheet" href="../CSS/contato.css" type="text/css">
+    <title>Etec-Contato</title>
+</head>
+<body>
+    <div class="sombra"></div>
+    <main>
+        <div class="retorno">
+           <a href="Index.html"><h1>←</h1><h2>&nbsp;Voltar</h2></a>  
+        </div>
+        <div class="conteudo">
+            <div class="formulario">
+                <div class="title">
+                   <p>Nos Contate!</p>     
+                </div>
+                <div class="introducao">
+                    <p>Tem alguma dúvida? Fale conosco!</p>
+                </div>
+                <form name="Contato" method="post" action="mailto:henrique.gargantini11@gmail.com" enctype="text/plain">
+                    <div class="nome-email">
+                        <div class="nome">
+                            <input type="text" name="Nome" placeholder="Nome*" maxlength="30" required>
+                        </div> 
+                        <div class="email">
+                            <input type="email" name="Email" placeholder="Email*" maxlength="30" required>
+                        </div> 
+                    </div>
+                    <div class="assunto">
+                        <input type="text" name="Assunto" placeholder="Assunto*" maxlength="20" required>
+                    </div>
+                    <div class="mensagem">
+                        <textarea placeholder="Mensagem*" name="Mensagem*" cols="15" rows="5" required></textarea>
+                    </div>
+                    <div class="enviar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

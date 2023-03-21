@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Etec-Inscrições 3/3</title>
+    <link rel="stylesheet" href="../CSS/menu.css" type="text/css">
+    <link rel="stylesheet" href="../CSS/vestibulinho3.css" type="text/css">
+</head>
+<body>
+    <main>
+        <div class="conteudo">
+            <div class="caixa-passos">
+                <div class="passos" style="background-color: rgb(47, 255, 47);">
+                    <p>1</p>
+                </div>
+                <div class="passos" style="background-color: rgb(47, 255, 47);">
+                    <p>2</p>
+                </div>
+                <div class="passos" style="background-color: rgb(255, 64, 64);">
+                    <p style="color: white;">3</p>
+                </div>
+            </div>
+            <div class="title">
+                <p>Inscrição - Insira todos os dados corretamente.</p>
+            </div>
+
+            <div class="formulario">
+                <form action="vestibulinho-finalizacao-formulario.html" method="post" name="pag3-inscricao">
+                    <div class="quant-familia">
+                        <label for="quant-familia">Quantas pessoas moram na sua casa (incluindo você)?</label>
+                        <div class="inp">
+                            <input style="margin-left: 15px;" type="number" name="quant-familia" min="1" max="15" required>
+                        </div>
+                    </div>
+                    <div class="salario-familia">
+                        <label for="salario-familia">Quanto é a sua renda familiar mensal em salarios mínimos? (R$ 1212,00)</label>
+                        <div class="inp">
+                            <input style="margin-left: 15px;" type="number" name="salario-familia" min="0" max="99">
+                        </div>
+                    </div>
+
+                    <div class="cota-racial">
+                        <p>Declaro que:</p>
+                        <input type="radio" name="cota-racial" required>
+                        <label for="cota-racial" class="margin">Sou Afrodescendente</label>
+                        <input type="radio" name="cota-racial" required>
+                        <label for="cota-racial">Não sou Afrodescendente</label>
+                    </div>
+
+                    <div class="cota-escolar">
+                        <div class="ano">
+                            <div class="texto">
+                                <p>Cursei a 5ª série/6º ano do ensino fundamental integralmente em instituição pública</p>
+                            </div>
+                            <div class="inp-ano">
+                                <label for="6ano">Sim</label>
+                                <input type="radio" name="6ano" required>
+                                <label for="6ano">Não</label>
+                                <input type="radio" name="6ano" required>
+                            </div>
+                        </div>
+                        <div class="ano">
+                            <div class="texto">
+                                <p>Cursei a 6ª série/7º ano do ensino fundamental integralmente em instituição pública</p>
+                            </div>
+                            <div class="inp-ano">
+                                <label for="7ano">Sim</label>
+                                <input type="radio" name="7ano" required>
+                                <label for="7ano">Não</label>
+                                <input type="radio" name="7ano" required>
+                            </div>
+                        </div>
+                        <div class="ano">
+                            <div class="texto">
+                                <p>Cursei a 7ª série/8º ano do ensino fundamental integralmente em instituição pública</p>
+                            </div>
+                            <div class="inp-ano">
+                                <label for="8ano">Sim</label>
+                                <input type="radio" name="8ano" required>
+                                <label for="8ano">Não</label>
+                                <input type="radio" name="8ano" required>
+                            </div>
+                        </div>
+                        <div class="ano">
+                            <div class="texto">
+                                <p style="border-bottom: none;">Cursei a 8ª série/9º ano do ensino fundamental integralmente em instituição pública</p>
+                            </div>
+                            <div class="inp-ano" style="border: none;">
+                                <label for="9ano">Sim</label>
+                                <input type="radio" name="9ano" required>
+                                <label for="9ano">Não</label>
+                                <input type="radio" name="9ano" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="enviar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </div>    
+    </main>
+</body>
+</html>

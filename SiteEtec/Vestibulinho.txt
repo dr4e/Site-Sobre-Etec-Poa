@@ -1,0 +1,34 @@
+O que terá no formulário:
+
+1ª Página:
+
+- Nome Completo
+- CPF
+- RG
+- E-mail
+- Data Nascimento
+- País de Nascimento
+- Cidade de Nascimento
+- Sexo
+- Estado Civil
+- Curso
+
+2ª Página:
+
+- Nome do responsável
+- E-mail do responsável
+- Número do responsável
+- Telefone
+- Celular
+- Estado
+- Município
+- Bairro
+- Rua
+- Complemento
+
+3ª Página:
+
+- Afrodescendência
+- Escolaridade Pública
+- Renda familiar
+- Quantidade de Familiares

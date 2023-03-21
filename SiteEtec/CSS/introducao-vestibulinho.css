@@ -1,0 +1,96 @@
+main{
+    background-image: url("../Conteudos/Imgs/bgIntroducaoVestibulinho.jpg");
+    background-size: 90%;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.conteudo{
+    margin-right: 125px;
+    width: 550px;
+    height: 300px;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 80%;
+
+    text-align: center;
+    padding-bottom: 4%;
+    opacity: 0;
+    animation: forwards cima 1.5s ease-in-out;
+}
+
+.texto p{
+    font-size: 40px;
+    color: white;
+    opacity: 0.9;
+}
+
+.botao button{
+    width: 100%;
+    height: 100%;
+
+    background-color: transparent;
+    color: white;
+    
+    border: transparent;
+    cursor: pointer;
+}
+
+.botao{
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 170px;
+    height: 50px;
+
+    border-radius: 20px;
+    background-color: black;
+    animation: forwards botao 2s;
+}
+
+.botao a:hover{
+    opacity: 0.7;
+}
+
+.botao:hover{
+    background-color: rgb(15, 15, 15);
+}
+
+@keyframes botao{
+    0%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+@keyframes cima{
+    100%{
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+.voltar{
+    margin-right: 125px;
+    width: 550px;
+    text-align: center;
+    animation: forwards botao 2.5s;
+}

@@ -1,0 +1,124 @@
+body{
+    background-image: url("../Conteudos/Imgs/Indexbg.jpg");
+}
+
+main{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    
+    width: 100%;
+    height: 405%;
+}    
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    margin-top: -6%;
+    margin-right: 15%;
+    /*margin-top: 10%;*/
+
+    width: 25%;
+    height: 36%;
+    text-align: center;
+}
+
+.text{
+    padding-bottom: 4%;
+    opacity: 0;
+    animation: forwards cima 1.5s ease-in-out;
+}
+
+.botao{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35%;
+
+    width: 170px;
+    height: 43px;
+
+    border-radius: 20px;
+    background-color: black;
+    animation: forwards botao 2.5s;
+}
+
+.botao a:hover{
+    opacity: 0.7;
+}
+
+.botao:hover{
+    background-color: rgb(15, 15, 15);
+}
+
+.botao button{
+    width: 100%;
+    height: 100%;
+
+    background-color: transparent;
+    color: white;
+    
+    border: transparent;
+    cursor: pointer;
+}
+
+.sombra{
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+    
+    z-index: -2;
+    opacity: 0.3;
+    background-color: black;
+}
+
+.sobra-broke{
+    position: absolute;
+    
+    height: 100%;
+    width: 100%;
+    
+    z-index: -1;
+    opacity: 0.7;
+    background-color: black;
+    clip-path: polygon(85% 0%, -10% 100%, 50000% 100%);
+}
+
+@keyframes cima{
+    100%{
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+@keyframes botao{
+    0%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+}
+
+.image{
+    width: 25%;
+    height: 50%;
+
+    margin-right: 15%;
+
+    opacity: 0;
+    margin-top: 2.5%;
+    animation: forwards cima 1.5s;
+}

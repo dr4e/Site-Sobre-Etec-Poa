@@ -1,0 +1,121 @@
+main{
+    width: 100%;
+    height: 110vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("../Conteudos/Imgs/bgFormularioVestibulinho.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.conteudo{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgb(117, 116, 116) 5px 5px 5px;
+
+    width: 900px;
+    height: 930px;
+}
+
+.caixa-passos{
+    width: 100%;
+
+    padding: 20px 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.passos{
+    border: 1px solid black;
+
+    height: 70px;
+    width: 70px;
+
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.passos p{
+    color: white;
+}
+
+.passos p, .title p{
+    font-size: 20px;
+}
+
+.title{
+    padding: 20px 40px;
+    background-color: rgb(230, 225, 225);
+}
+
+.alinhar-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 40px 80px;
+
+    width: 100%;
+}
+
+.escolha-sexo, .escolha-civil{
+    height: 150px;
+}
+
+input::placeholder{
+    font-style: italic;
+}
+
+input{
+    outline: unset;
+    border: none;
+}
+
+.inp{
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+
+    width: 320px;
+}
+
+label{
+    font-size: 18px;
+}
+
+.Proximo input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+.Proximo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    width: 90px;
+    height: 40px;
+
+    border-radius: 25px;
+}
+
+.Proximo:hover{
+    background-color: rgba(88, 86, 86);
+    transition: 0.3s;
+    border: none;
+}
+
+.Proximo input:hover{
+    color: white;
+}

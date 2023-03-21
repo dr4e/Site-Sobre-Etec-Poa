@@ -1,0 +1,192 @@
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.inicio{
+    height: 90vh;
+
+    background-image: url("https://cdn.discordapp.com/attachments/536355473226596362/1049084175191384114/BGMainPage.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: gray -1px 5px 3px;
+}
+
+.texto-inicio{
+    width: 100%;
+    height: 300px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-inicio{
+    height: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+.subtitle-inicio{
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: white;
+}
+
+.title-inicio h1{
+    font-size: 70px;
+    text-transform: uppercase;
+} 
+
+.vest h1{
+    font-size: 50px;
+}
+
+.subtitle-inicio p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+} 
+
+.vest p b{
+    font-size: 30px;
+}
+
+.fundo-caixas{
+    background-color: rgb(236, 235, 235);
+    
+    padding: 70px 0px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.somos-contato, .info-nsa{
+    width: 650px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 350px;
+    width: 250px;
+
+    padding-top: 10px;
+
+
+    background-color: rgb(243, 241, 241);
+    border-radius: 8px;
+    box-shadow: rgb(94, 94, 94) 3px 3px 3px;
+}
+
+.info-nsa{
+    padding-right: 100px;
+}
+
+.somos-contato{
+    padding-left: 100px;
+    border-left: 1px solid gray;
+}
+
+.image{
+    width: 80px;
+    height: 80px;
+}
+
+.title-caixa{
+    margin-top: 20px;
+}
+
+.title-caixa h1{
+    font-size: 20px;
+}
+
+.texto-caixa{
+    padding: 45px 10px;
+}
+
+.botao-caixa{
+    width: 170px;
+    height: 43px;
+
+    border-radius: 5px;
+    background-color: black;
+}
+
+.botao-caixa a:hover{
+    opacity: 0.7;
+}
+
+.botao-caixa:hover{
+    background-color: rgb(15, 15, 15);
+}
+
+.botao-caixa button{
+    width: 100%;
+    height: 100%;
+
+    background-color: transparent;
+    color: white;
+    
+    border: transparent;
+    cursor: pointer;
+}
+
+.vest{
+    display: flex;
+    justify-content: end;
+    margin-top: 150px;
+}
+
+.vest-image{
+    width: 1100px;
+}
+
+.texto-vest{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-vest{
+    margin-top: 25px;
+
+    width: 200px;
+    height: 60px;
+
+    border-radius: 30px;
+    background-color: rgb(1, 70, 160);
+}
+
+.botao-vest a:hover{
+    opacity: 0.7;
+}
+
+.botao-vest button{
+    width: 100%;
+    height: 100%;
+
+    background-color: transparent;
+    color: white;
+    
+    border: transparent;
+    cursor: pointer;
+    font-size: 20px;
+}

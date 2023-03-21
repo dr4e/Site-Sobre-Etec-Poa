@@ -1,0 +1,159 @@
+main{
+    width: 100%;
+    height: 110vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("../Conteudos/Imgs/bgFormularioVestibulinho.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.conteudo{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgb(117, 116, 116) 5px 5px 5px;
+
+    width: 1100px;
+    height: 820px;
+}
+
+.caixa-passos{
+    width: 100%;
+
+    padding: 20px 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.passos p{
+    color: white;
+}
+
+.passos{
+    border: 1px solid black;
+
+    height: 70px;
+    width: 70px;
+
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.title{
+    padding: 20px 40px;
+    background-color: rgb(230, 225, 225);
+}
+
+.quant-familia, .salario-familia{
+    display: flex;
+}
+
+.salario-familia, .cota-racial, .cota-escolar, .quant-familia{
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.ano{
+    display: flex;
+}
+
+.inp-ano{
+    border-bottom: 1px solid gray;
+
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cota-escolar{
+    border: 1px solid gray;
+    padding-left: 15px;
+}
+
+.cota-escolar p{
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.ano{
+    width: 100%;
+}
+
+.margin{
+    margin-right: 20px;
+}
+
+.texto{
+    width: 110%;
+
+    padding-top: 15px;
+
+    margin-top: -15px;
+    margin-left: -15px;
+}
+
+input{
+    outline: unset;
+    border: none;
+}
+
+.inp{
+    border: 1px solid gray; 
+    border-radius: 10px;
+
+    width: 75px; 
+    
+    padding-top: 2px;
+    margin-left: 15px;
+}
+
+.enviar input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+.enviar{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    width: 90px;
+    height: 40px;
+
+    border-radius: 25px;
+}
+
+.enviar:hover{
+    background-color: rgba(88, 86, 86);
+    transition: 0.3s;
+    border: none;
+}
+
+.enviar input:hover{
+    color: white;
+}

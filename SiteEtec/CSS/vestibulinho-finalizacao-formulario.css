@@ -1,0 +1,93 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: rgb(179, 253, 68);
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+
+    height: 400px;
+    width: 1000px;
+
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.562) 4px 2px 4px;
+}
+
+.cabecalho{
+    display: flex;
+
+    height: 75%;
+    width: 100%;
+}
+
+.icon{
+    height: 300px;
+    width: 300px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100%;
+    width: 700px;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.info{
+    font-size: 20px;
+}
+
+.voltar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 18px;
+
+    height: 25%;
+    width: 100%;
+}
+
+.voltar a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(0, 180, 252);
+    
+    animation: forwards retornar 2s;
+}
+
+.voltar a:hover{
+    color: rgb(120, 207, 241);
+}
+
+@keyframes retornar{
+    0%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
